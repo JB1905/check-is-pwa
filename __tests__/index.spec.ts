@@ -1,21 +1,26 @@
+import MatchMediaMock from 'jest-matchmedia-mock';
+
 import checkIsPwa from '../src';
 
+let matchMedia: MatchMediaMock;
+
 describe('checkIsPwa', () => {
-  it('should ', () => {
-    const status = checkIsPwa();
-
-    expect(status).toBe(true);
+  beforeAll(() => {
+    matchMedia = new MatchMediaMock();
   });
 
-  it('should ', () => {
-    const status = checkIsPwa();
-
-    expect(status).toBe(false);
+  afterEach(() => {
+    matchMedia.clear();
   });
 
-  it('should ', () => {
+  it.each([
+    ['(display-mode: standalone)', true],
+    ['(display-mode: browser)', false],
+  ])('', (mediaQuery, expected) => {
+    matchMedia.useMediaQuery(mediaQuery);
+
     const status = checkIsPwa();
 
-    expect(status).toBe(undefined);
+    expect(status).toBe(expected);
   });
 });

@@ -1,5 +1,5 @@
 const checkIsPwa = () => {
-  if (window) {
+  if (typeof window !== 'undefined') {
     return window.matchMedia('(display-mode: standalone)').matches;
   }
 
