@@ -16,7 +16,7 @@ describe('checkIsPwa', () => {
   it.each([
     ['(display-mode: standalone)', true],
     ['(display-mode: browser)', false],
-  ])('', (mediaQuery, expected) => {
+  ])('should check matchMedia $mediaQuery', (mediaQuery, expected) => {
     matchMedia.useMediaQuery(mediaQuery);
 
     const status = checkIsPwa();
