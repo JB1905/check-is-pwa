@@ -9,6 +9,19 @@
   "imageSize": 100,
   "commit": true,
   "commitConvention": "gitmoji",
-  "contributors": [],
-  "contributorsPerLine": 7
+  "contributors": [
+    {
+      "login": "JB1905",
+      "name": "Jakub Biesiada",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/28870390?v=4",
+      "profile": "https://jb1905.github.io/portfolio/",
+      "contributions": [
+        "code",
+        "test",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
