@@ -6,11 +6,11 @@
 [![NPM version](http://img.shields.io/npm/v/check-is-pwa.svg?style=flat-square)](https://www.npmjs.com/package/check-is-pwa)
 [![NPM downloads](http://img.shields.io/npm/dm/check-is-pwa.svg?style=flat-square)](https://www.npmjs.com/package/check-is-pwa)
 
-## About
+## About ℹ️
 
 Check if app is running as PWA
 
-## How to Install
+## How to Install ⬇️
 
 First, install the library in your project by npm:
 
@@ -24,7 +24,7 @@ Or Yarn:
 $ yarn add check-is-pwa
 ```
 
-## Getting Started
+## Getting Started 🏁
 
 **Connect libary to project using ES6 import:**
 
@@ -44,10 +44,6 @@ Next use library:
 const status = checkIsPwa();
 ```
 
-## License
-
-This project is licensed under the MIT License © 2020-present Jakub Biesiada
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -60,3 +56,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## License 📝
+
+This project is licensed under the MIT License © 2020-present Jakub Biesiada
