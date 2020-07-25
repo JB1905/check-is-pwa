@@ -17,6 +17,9 @@
     "prettier": "prettier --write 'src/**/*.ts'",
     "commit": "git-cz"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/JB1905/check-is-pwa.git"
