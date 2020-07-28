@@ -49,12 +49,17 @@
     "prettier": "^2.0.5",
     "rollup-plugin-terser": "^6.1.0",
     "rollup-plugin-typescript2": "^0.27.1",
-    "ts-jest": "^26.1.3",
+    "ts-jest": "^26.1.4",
     "typescript": "^3.9.7"
   },
   "jest": {
     "transform": {
       "^.+\\.ts?$": "ts-jest"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-emoji"
     }
   },
   "husky": {
@@ -67,10 +72,5 @@
       "npm run prettier",
       "npm run lint"
     ]
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-emoji"
-    }
   }
 }
