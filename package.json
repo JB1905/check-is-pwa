@@ -1,6 +1,6 @@
 {
   "name": "check-is-pwa",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "Check if app is running as PWA",
   "author": "Jakub Biesiada",
   "license": "MIT",
@@ -8,14 +8,15 @@
   "module": "lib/check-is-pwa.esm.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "release": "rimraf lib/* && npm run prettier && npm run lint && npm run build",
+    "prepare": "rimraf lib/* && npm run prettier && npm run lint && npm run build",
     "build": "rollup -c",
     "test": "jest --coverage",
     "watch": "npm run build -- --watch",
     "watch:test": "npm run test -- --watch",
     "lint": "eslint 'src/**/*.ts' --fix",
     "prettier": "prettier --write 'src/**/*.ts'",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
   "homepage": "https://github.com/JB1905/check-is-pwa#readme",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^8.4.0",
+    "@semantic-release/git": "^9.0.0",
     "@types/jest": "^26.0.7",
     "@types/node": "^14.0.26",
     "@typescript-eslint/parser": "^3.7.0",
@@ -49,6 +51,7 @@
     "prettier": "^2.0.5",
     "rollup-plugin-terser": "^6.1.0",
     "rollup-plugin-typescript2": "^0.27.1",
+    "semantic-release": "^17.1.1",
     "semantic-release-gitmoji": "^1.3.4",
     "ts-jest": "^26.1.3",
     "typescript": "^3.9.7"
