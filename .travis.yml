@@ -7,3 +7,12 @@ cache:
     - node_modules
 
 script: yarn test
+
+jobs:
+  include:
+    - stage: release
+      node_js: lts/*
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script: npx semantic-release
