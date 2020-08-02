@@ -1,6 +1,8 @@
-# check-is-pwa
+# [check-is-pwa](https://github.com/JB1905/check-is-pwa)
+
 [![NPM version](https://img.shields.io/npm/v/check-is-pwa?style=flat-square)](https://www.npmjs.com/package/check-is-pwa)
 [![NPM downloads](https://img.shields.io/npm/dm/check-is-pwa?style=flat-square)](https://www.npmjs.com/package/check-is-pwa)
+[![NPM license](https://img.shields.io/npm/l/check-is-pwa?style=flat-square)](https://www.npmjs.com/package/check-is-pwa)
 [![All Contributors](https://img.shields.io/github/all-contributors/JB1905/check-is-pwa?style=flat-square)](#contributors-)
 [![Codecov](https://img.shields.io/codecov/c/github/JB1905/check-is-pwa?style=flat-square)](https://codecov.io/gh/JB1905/check-is-pwa)
 [![Travis](https://img.shields.io/travis/JB1905/check-is-pwa?style=flat-square)](https://travis-ci.org/JB1905/check-is-pwa)
