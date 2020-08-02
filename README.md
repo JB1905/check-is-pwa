@@ -1,10 +1,10 @@
 # check-is-pwa
-[![version](http://img.shields.io/npm/v/check-is-pwa.svg?style=flat-square)](https://www.npmjs.com/package/check-is-pwa)
-[![downloads](https://badgen.net/npm/dm/check-is-pwa)](https://www.npmjs.com/package/check-is-pwa)
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-[![coverage](https://badgen.net/codecov/c/github/babel/babel)](https://codecov.io/gh/JB1905/check-is-pwa)
-[![build](https://badgen.net/travis/JB1905/check-is-pwa)](https://travis-ci.org/JB1905/check-is-pwa)
-[![Install size](https://badgen.net/packagephobia/install/check-is-pwa)](https://packagephobia.com/result?p=check-is-pwa)
+[![NPM version](https://img.shields.io/npm/v/check-is-pwa?style=flat-square)](https://www.npmjs.com/package/check-is-pwa)
+[![NPM downloads](https://img.shields.io/npm/dm/check-is-pwa?style=flat-square)](https://www.npmjs.com/package/check-is-pwa)
+[![All Contributors](https://img.shields.io/github/all-contributors/JB1905/check-is-pwa?style=flat-square)](#contributors-)
+[![Codecov](https://img.shields.io/codecov/c/github/JB1905/check-is-pwa?style=flat-square)](https://codecov.io/gh/JB1905/check-is-pwa)
+[![Travis](https://img.shields.io/travis/JB1905/check-is-pwa?style=flat-square)](https://travis-ci.org/JB1905/check-is-pwa)
+[![Bundle size](https://img.shields.io/bundlephobia/min/check-is-pwa?style=flat-square)](https://bundlephobia.com/result?p=check-is-pwa)
 
 ## About ℹ️
 
