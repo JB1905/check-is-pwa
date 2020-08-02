@@ -8,4 +8,5 @@ cache:
 
 script:
   - yarn test
+  - yarn release
   - yarn bundlesize
