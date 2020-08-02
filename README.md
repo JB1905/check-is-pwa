@@ -2,6 +2,9 @@
 [![NPM version](http://img.shields.io/npm/v/check-is-pwa.svg?style=flat-square)](https://www.npmjs.com/package/check-is-pwa)
 [![NPM downloads](http://img.shields.io/npm/dm/check-is-pwa.svg?style=flat-square)](https://www.npmjs.com/package/check-is-pwa)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![codecov](https://codecov.io/gh/JB1905/check-is-pwa/branch/master/graph/badge.svg)](https://codecov.io/gh/JB1905/check-is-pwa)
+[![travis](https://travis-ci.org/JB1905/check-is-pwa.svg)](https://travis-ci.org/JB1905/check-is-pwa)
+[![Install size](https://badgen.net/packagephobia/install/check-is-pwa)](https://packagephobia.com/result?p=check-is-pwa)
 
 ## About ℹ️
 
