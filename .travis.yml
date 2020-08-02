@@ -8,5 +8,6 @@ cache:
 
 script:
   - yarn test
+  - yarn global add rollup
   - yarn release
   - yarn bundlesize
