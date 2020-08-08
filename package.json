@@ -1,6 +1,6 @@
 {
   "name": "check-is-pwa",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Check if app is running as PWA",
   "author": "Jakub Biesiada",
   "license": "MIT",
@@ -8,7 +8,8 @@
   "module": "lib/check-is-pwa.esm.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "release": "rimraf lib/* && npm run prettier && npm run lint && npm run build",
+    "//prepack": "npm run clean && npm run prettier && npm run lint && npm run build",
+    "clean": "rimraf lib/*",
     "build": "rollup -c",
     "test": "jest --coverage",
     "watch": "npm run build -- --watch",
@@ -52,7 +53,7 @@
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "rollup-plugin-terser": "^6.1.0",
-    "rollup-plugin-typescript2": "^0.27.1",
+    "rollup-plugin-typescript2": "^0.27.2",
     "ts-jest": "^26.1.4",
     "typescript": "^3.9.7"
   },
