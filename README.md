@@ -40,6 +40,38 @@ Next use library:
 const status = checkIsPwa();
 ```
 
+TODO add isPwa, checkIsNotPwa, isNotPwa examples
+
+```js
+// app is running as PWA
+
+checkIsPwa() // true
+isPwa // true
+
+checkIsNotPwa() // false
+isNotPwa // false
+```
+
+```js
+// app is NOT running as PWA
+
+checkIsPwa() // false
+isPwa // false
+
+checkIsNotPwa() // true
+isNotPwa // true
+```
+
+```js
+// app is running in SSR
+
+checkIsPwa() // undefined
+isPwa // undefined
+
+checkIsNotPwa() // undefined
+isNotPwa // undefined
+```
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):

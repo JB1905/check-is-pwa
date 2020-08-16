@@ -1,5 +1,7 @@
-import { checkIsPwa, isPwa } from './is-pwa';
+import { checkIsPwa } from './is-pwa';
 
-export const checkIsNotPwa = () => !checkIsPwa();
+export const checkIsNotPwa = () => {
+  return checkIsPwa() !== undefined ? !checkIsPwa() : undefined;
+};
 
-export const isNotPwa = !isPwa;
+export const isNotPwa = checkIsNotPwa();
