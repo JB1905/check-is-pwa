@@ -31,7 +31,7 @@ $ yarn add check-is-pwa
 Connect libary to project:
 
 ```js
-import checkIsPwa from 'check-is-pwa';
+import { checkIsPwa, isPwa, checkIsNotPwa, isNotPwa } from 'check-is-pwa';
 ```
 
 Next use library:
