@@ -3,7 +3,7 @@ export const checkIsPwa = () => {
     return window.matchMedia('(display-mode: standalone)').matches;
   }
 
-  return undefined;
+  return false;
 };
 
 export const isPwa = checkIsPwa();
