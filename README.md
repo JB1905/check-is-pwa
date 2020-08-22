@@ -12,6 +12,11 @@
 
 Check if app is running as PWA
 
+### Alternatives
+
+- [is-webapp](https://github.com/hanford/is-webapp/) by [Jack Hanford](https://github.com/hanford/)
+- [platform-detect](https://github.com/MikeKovarik/platform-detect/) by [Mike](https://github.com/MikeKovarik/)
+
 ## How to Install 💾
 
 First, install the library in your project by npm:
