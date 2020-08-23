@@ -1,11 +1,21 @@
-# check-is-pwa
-[![NPM version](http://img.shields.io/npm/v/check-is-pwa.svg?style=flat-square)](https://www.npmjs.com/package/check-is-pwa)
-[![NPM downloads](http://img.shields.io/npm/dm/check-is-pwa.svg?style=flat-square)](https://www.npmjs.com/package/check-is-pwa)
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+# [check-is-pwa](https://github.com/JB1905/check-is-pwa)
+
+[![NPM version](https://img.shields.io/npm/v/check-is-pwa?style=flat-square)](https://www.npmjs.com/package/check-is-pwa)
+[![NPM downloads](https://img.shields.io/npm/dm/check-is-pwa?style=flat-square)](https://www.npmjs.com/package/check-is-pwa)
+[![NPM license](https://img.shields.io/npm/l/check-is-pwa?style=flat-square)](https://www.npmjs.com/package/check-is-pwa)
+[![All Contributors](https://img.shields.io/github/all-contributors/JB1905/check-is-pwa?style=flat-square)](#contributors-)
+[![Codecov](https://img.shields.io/codecov/c/github/JB1905/check-is-pwa?style=flat-square)](https://codecov.io/gh/JB1905/check-is-pwa)
+[![Travis](https://img.shields.io/travis/JB1905/check-is-pwa/master?style=flat-square)](https://travis-ci.org/JB1905/check-is-pwa)
+[![Bundle size](https://img.shields.io/bundlephobia/min/check-is-pwa?style=flat-square)](https://bundlephobia.com/result?p=check-is-pwa)
 
 ## About ℹ️
 
 Check if app is running as PWA
+
+### Alternatives
+
+- [is-webapp](https://github.com/hanford/is-webapp/) by [Jack Hanford](https://github.com/hanford/)
+- [platform-detect](https://github.com/MikeKovarik/platform-detect/) by [Mike](https://github.com/MikeKovarik/)
 
 ## How to Install 💾
 
@@ -23,16 +33,38 @@ $ yarn add check-is-pwa
 
 ## Getting Started 🏁
 
-**Connect libary to project:**
+Connect libary to project:
 
 ```js
-import checkIsPwa from 'check-is-pwa';
+import { checkIsPwa, isPwa, checkIsNotPwa, isNotPwa } from 'check-is-pwa';
 ```
 
 Next use library:
 
 ```js
 const status = checkIsPwa();
+```
+
+## Example
+
+```js
+// app is running as PWA
+
+checkIsPwa() // true
+isPwa // true
+
+checkIsNotPwa() // false
+isNotPwa // false
+```
+
+```js
+// app is NOT running as PWA / running in SSR
+
+checkIsPwa() // false
+isPwa // false
+
+checkIsNotPwa() // true
+isNotPwa // true
 ```
 
 ## Contributors ✨
