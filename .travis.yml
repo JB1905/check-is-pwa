@@ -9,6 +9,13 @@ cache:
 script:
   - yarn test
   - bash <(curl -s https://codecov.io/bash)
-  - yarn global add rollup
-  - yarn release
   - yarn bundlesize
+
+jobs:
+  include:
+    - stage: release
+      node_js: lts/*
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script: yarn semantic-release
