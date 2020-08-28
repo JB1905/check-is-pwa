@@ -1,2 +1,9 @@
-export * from './is-pwa';
-export * from './is-not-pwa';
+const checkIsPwa = () => {
+  if (typeof window !== 'undefined') {
+    return window.matchMedia('(display-mode: standalone)').matches;
+  }
+
+  return false;
+};
+
+export default checkIsPwa;

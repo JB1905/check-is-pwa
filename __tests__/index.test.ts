@@ -1,6 +1,6 @@
 import MatchMediaMock from 'jest-matchmedia-mock';
 
-import { checkIsPwa, isPwa, checkIsNotPwa, isNotPwa } from '../src';
+import checkIsPwa from '../src';
 
 let matchMedia: MatchMediaMock;
 
@@ -19,10 +19,8 @@ describe('checkIsPwa', () => {
   ])('should check matchMedia $mediaQuery', (mediaQuery, expected) => {
     matchMedia.useMediaQuery(mediaQuery);
 
-    expect(checkIsPwa()).toBe(expected);
-    expect(isPwa).toBe(expected);
+    const status = checkIsPwa();
 
-    expect(checkIsNotPwa()).toBe(!expected);
-    expect(isNotPwa).toBe(!expected);
+    expect(status).toBe(expected);
   });
 });
