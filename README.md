@@ -45,7 +45,7 @@ Next use library:
 const status = checkIsPwa();
 ```
 
-## Example
+## Example 🧪
 
 ```js
 // app is running as PWA
