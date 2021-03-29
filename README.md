@@ -36,13 +36,14 @@ $ yarn add check-is-pwa
 Connect libary to project:
 
 ```js
-import checkIsPwa from 'check-is-pwa';
+import { checkIsPwa, isPwa } from 'check-is-pwa';
 ```
 
 Next use library:
 
 ```js
 const status = checkIsPwa();
+const status = isPwa;
 ```
 
 ## Example 🧪
@@ -50,13 +51,15 @@ const status = checkIsPwa();
 ```js
 // app is running as PWA
 
-checkIsPwa() // true
+checkIsPwa(); // true
+isPwa; // true
 ```
 
 ```js
 // app is NOT running as PWA / running in SSR
 
-checkIsPwa() // false
+checkIsPwa(); // false
+isPwa; // false
 ```
 
 ## Contributors ✨
@@ -74,6 +77,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

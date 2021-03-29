@@ -1,4 +1,4 @@
-const checkIsPwa = () => {
+export const checkIsPwa = () => {
   if (typeof window !== 'undefined') {
     return window.matchMedia('(display-mode: standalone)').matches;
   }
@@ -6,4 +6,4 @@ const checkIsPwa = () => {
   return false;
 };
 
-export default checkIsPwa;
+export const isPwa = checkIsPwa();

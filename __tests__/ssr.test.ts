@@ -2,12 +2,11 @@
  * @jest-environment node
  */
 
-import checkIsPwa from '../src';
+import { checkIsPwa, isPwa } from '../src';
 
-describe('checkIsPwa for SSR', () => {
+describe('checkIsPwa and isPwa for SSR', () => {
   it('should test module when window is not defined', () => {
-    const status = checkIsPwa();
-
-    expect(status).toBe(false);
+    expect(checkIsPwa()).toBe(false);
+    expect(isPwa).toBe(false);
   });
 });
