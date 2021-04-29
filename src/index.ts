@@ -6,5 +6,4 @@ export const checkIsPwa = () => {
   return false;
 };
 
-// TODO fix - value is saved for all calls, not watch matchMedia changes
 export const isPwa = checkIsPwa();
