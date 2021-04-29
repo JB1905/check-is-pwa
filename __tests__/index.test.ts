@@ -1,14 +1,8 @@
-import MatchMediaMock from 'jest-matchmedia-mock';
+import matchMedia from '../__mocks__/matchMedia';
 
 import { checkIsPwa, isPwa } from '../src';
 
-let matchMedia: MatchMediaMock;
-
 describe('checkIsPwa and isPwa', () => {
-  beforeAll(() => {
-    matchMedia = new MatchMediaMock();
-  });
-
   afterEach(() => {
     matchMedia.clear();
   });
