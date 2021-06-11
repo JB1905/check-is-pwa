@@ -25,13 +25,13 @@
     "url": "https://github.com/JB1905/check-is-pwa.git"
   },
   "keywords": [
-    "pwa",
-    "install",
     "android",
     "ios",
+    "pwa",
+    "detect",
+    "install",
     "standalone",
-    "check",
-    "detect"
+    "check"
   ],
   "bugs": {
     "url": "https://github.com/JB1905/check-is-pwa/issues"
