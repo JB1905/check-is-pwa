@@ -18,7 +18,9 @@
     "prettier": "prettier --write 'src/**/*.ts'",
     "bundlesize": "bundlesize",
     "commit": "git-cz",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepare": "husky install",
+    "pre-commit": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -77,11 +79,6 @@
       "maxSize": "500 B"
     }
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "src/**/*.ts": [
       "npm run prettier",
