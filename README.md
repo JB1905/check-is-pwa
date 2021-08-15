@@ -33,7 +33,7 @@ $ yarn add check-is-pwa
 
 ## Getting Started 🏁
 
-Connect libary to project using ES6 import:
+Connect the library to the project with ES6 import:
 
 ```js
 import checkIsPwa from 'check-is-pwa';
