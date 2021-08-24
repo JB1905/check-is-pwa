@@ -5,7 +5,7 @@
 [![NPM license](https://img.shields.io/npm/l/check-is-pwa?style=flat-square)](https://www.npmjs.com/package/check-is-pwa)
 [![All Contributors](https://img.shields.io/github/all-contributors/JB1905/check-is-pwa?style=flat-square)](#contributors-)
 [![Codecov](https://img.shields.io/codecov/c/github/JB1905/check-is-pwa?style=flat-square)](https://codecov.io/gh/JB1905/check-is-pwa)
-[![Travis](https://img.shields.io/travis/com/JB1905/check-is-pwa/main?style=flat-square)](https://travis-ci.com/JB1905/check-is-pwa)
+[![Travis](https://img.shields.io/travis/com/JB1905/check-is-pwa/main?style=flat-square)](https://app.travis-ci.com/github/JB1905/check-is-pwa)
 [![Bundle size](https://img.shields.io/bundlephobia/min/check-is-pwa?style=flat-square)](https://bundlephobia.com/result?p=check-is-pwa)
 
 ## About ℹ️

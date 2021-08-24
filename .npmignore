@@ -1,12 +1,11 @@
 src
 __tests__
 coverage
-
+.husky
 .all-contributorsrc
 tsconfig.json
 .travis.yml
 .prettierrc
-
 .eslintrc.js
 rollup.config.js
 yarn-error.log
