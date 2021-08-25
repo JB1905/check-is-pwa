@@ -14,9 +14,15 @@ describe('checkIsPwa', () => {
   });
 
   it.each([
-    ['(display-mode: standalone)', true],
-    ['(display-mode: browser)', false],
-  ])('should check matchMedia $mediaQuery', (mediaQuery, expected) => {
+    {
+      mediaQuery: '(display-mode: standalone)',
+      expected: true,
+    },
+    {
+      mediaQuery: '(display-mode: browser)',
+      expected: false,
+    },
+  ])('should check matchMedia $mediaQuery', ({ mediaQuery, expected }) => {
     matchMedia.useMediaQuery(mediaQuery);
 
     const status = checkIsPwa();
