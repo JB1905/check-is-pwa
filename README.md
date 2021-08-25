@@ -10,7 +10,7 @@
 
 ## About ℹ️
 
-Check if app is running as PWA
+Check if the application is running as a PWA
 
 ### Alternatives
 
@@ -54,13 +54,13 @@ const status = checkIsPwa();
 ## Example 🧪
 
 ```js
-// app is running as PWA
+//the app is running as a PWA
 
 checkIsPwa(); // true
 ```
 
 ```js
-// app is NOT running as PWA / running in SSR
+// the app is NOT running as a PWA / is running in the SSR
 
 checkIsPwa(); // false
 ```

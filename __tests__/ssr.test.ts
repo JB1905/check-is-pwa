@@ -5,7 +5,7 @@
 import checkIsPwa from '../src';
 
 describe('checkIsPwa for SSR', () => {
-  it('should test module when window is not defined', () => {
+  it('should test the module when the window is not defined', () => {
     const status = checkIsPwa();
 
     expect(status).toBe(false);

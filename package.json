@@ -1,7 +1,7 @@
 {
   "name": "check-is-pwa",
   "version": "1.0.0",
-  "description": "Check if app is running as PWA",
+  "description": "Check if the application is running as a PWA",
   "author": "Jakub Biesiada",
   "license": "MIT",
   "main": "lib/check-is-pwa.cjs.js",
@@ -69,6 +69,7 @@
     }
   },
   "jest": {
+    "testEnvironment": "jsdom",
     "transform": {
       "^.+\\.ts?$": "ts-jest"
     }

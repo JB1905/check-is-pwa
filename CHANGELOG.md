@@ -4,4 +4,4 @@
 
 #### New Feature
 
-- added `checkIsPwa` function
+- added the `checkIsPwa` function
