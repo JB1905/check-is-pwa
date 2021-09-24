@@ -9,7 +9,7 @@ cache:
 script:
   - yarn test
   - bash <(curl -s https://codecov.io/bash)
-  - yarn global add rollup
+  # - yarn global add rollup # TODO
   - yarn pack
   - yarn bundlesize
 
