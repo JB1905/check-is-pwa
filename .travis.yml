@@ -18,5 +18,4 @@ jobs:
       node_js: lts/*
       deploy:
         provider: script
-        skip_cleanup: true
         script: yarn semantic-release
